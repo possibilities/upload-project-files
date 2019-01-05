@@ -4,10 +4,18 @@ a minimal api for uploading project files into clusterspace
 
 ## endpoints
 
-#### `DELETE /:projectId`
-
-delete project
-
-#### `PUT /:projectId/file`
+#### `PUT /:filePath`
 
 upload file to project
+
+##### Body
+
+```
+{
+  content: base 64 string
+}
+```
+
+#### `DELETE /:filePath`
+
+delete project
