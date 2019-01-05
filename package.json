@@ -1,6 +1,7 @@
 {
   "name": "upload-project-files",
   "version": "0.0.2",
+  "description": "a minimal api for uploading project files into clusterspace",
   "scripts": {
     "dev": "micro-dev",
     "start": "micro ./src/index.js",
