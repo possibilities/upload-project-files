@@ -3,8 +3,7 @@
   "version": "0.0.3",
   "description": "a minimal api for uploading project files into clusterspace",
   "scripts": {
-    "dev": "micro-dev",
-    "start": "micro ./src/index.js",
+    "start": "micro",
     "lint": "standard",
     "test": "PROJECTS_PATH=/tmp/projects ava --verbose",
     "pretest": "standard"
