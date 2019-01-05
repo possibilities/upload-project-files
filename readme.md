@@ -19,3 +19,9 @@ upload file to project
 #### `DELETE /:filePath`
 
 delete project
+
+## configuration
+
+the service can be configured via environment variables
+
+#### `PROJECTS_PATH` (default: `/projects`)
